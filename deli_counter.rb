@@ -26,5 +26,3 @@ def now_serving(katz_deli)
   end
 
 end
-
-katz_deli = ["John", "Jake", "Bob"]
