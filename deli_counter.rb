@@ -30,3 +30,4 @@ end
 
 katz_deli = ["Josh", "John", "Jacob", "Brian"]
 line(katz_deli)
+take_a_number(katz_deli, name)
