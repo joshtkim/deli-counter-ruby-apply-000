@@ -32,4 +32,4 @@ katz_deli = ["Josh", "John", "Jacob", "Brian"]
 line(katz_deli)
 take_a_number(katz_deli, name)
 name = "Joe"
-now_serving(Katz_deli)
+now_serving(katz_deli)
