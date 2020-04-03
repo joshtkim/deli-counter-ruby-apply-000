@@ -13,10 +13,17 @@ def line(katz_deli)
 
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli << name
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+$number = 0
+
+#global variable outside of a method ($)
+
+def take_a_number
+  puts "Welcome order number #{$number}!"
 end
+
+# multiple same names can cause issues
+# listing customers by ticket number
+# no arrays
 
 def now_serving(katz_deli)
   if katz_deli.length == 0
@@ -33,5 +40,5 @@ katz_deli = ["Josh", "John", "Jacob", "Brian"]
 line(katz_deli)
 
 name = "Joe"
-take_a_number(katz_deli, name)
+take_a_number
 now_serving(katz_deli)
