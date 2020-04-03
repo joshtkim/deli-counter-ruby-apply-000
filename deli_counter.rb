@@ -41,4 +41,6 @@ line(katz_deli)
 
 name = "Joe"
 take_a_number
+take_a_number
+take_a_number
 now_serving(katz_deli)
