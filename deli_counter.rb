@@ -18,7 +18,7 @@ $number = 0
 #global variable outside of a method ($)
 
 def take_a_number
-  puts "Welcome order number #{$number}!"
+  puts "Welcome order number #{$number+=1}!"
 end
 
 # multiple same names can cause issues
